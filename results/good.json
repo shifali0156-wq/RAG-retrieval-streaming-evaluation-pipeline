@@ -1,0 +1,5619 @@
+{
+  "team_name": "good",
+  "team_url": "http://localhost:8001",
+  "timestamp": "2026-10-19T10:19:14.931606",
+  "config": {
+    "stall_min_ms": 200,
+    "request_timeout_s": 30,
+    "metrics": {
+      "recall_at_5": {
+        "weight": 0.2,
+        "threshold": 0.5,
+        "target": 0.9,
+        "direction": "higher"
+      },
+      "mrr": {
+        "weight": 0.15,
+        "threshold": 0.3,
+        "target": 0.75,
+        "direction": "higher"
+      },
+      "ttfa_p50_ms": {
+        "weight": 0.2,
+        "threshold": 3000,
+        "target": 1200,
+        "direction": "lower"
+      },
+      "ttfa_p95_ms": {
+        "weight": 0.1,
+        "threshold": 6000,
+        "target": 2400,
+        "direction": "lower"
+      },
+      "stall_ms_mean": {
+        "weight": 0.15,
+        "threshold": 1500,
+        "target": 0,
+        "direction": "lower"
+      },
+      "overlap_ratio_mean": {
+        "weight": 0.1,
+        "threshold": 0.15,
+        "target": 0.6,
+        "direction": "higher"
+      },
+      "total_p50_ms": {
+        "weight": 0.1,
+        "threshold": 12000,
+        "target": 5000,
+        "direction": "lower"
+      }
+    }
+  },
+  "question_records": [
+    {
+      "question_id": "q001",
+      "question_text": "How many days of annual leave do employees get per year?",
+      "gold_passage_ids": [
+        "p01"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9954.110964836,
+          "t_retrieved": 9954.131338919,
+          "t_first_audio": 9954.281980707,
+          "t_done": 9956.699051174,
+          "ttfa_ms": 171.01587099932658,
+          "retrieval_ms": 20.374083000206156,
+          "total_ms": 2588.0863380007213,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9954.131338919
+            },
+            {
+              "type": "audio",
+              "timestamp": 9954.281980707
+            },
+            {
+              "type": "audio",
+              "timestamp": 9954.36417467
+            },
+            {
+              "type": "audio",
+              "timestamp": 9954.444535448
+            },
+            {
+              "type": "audio",
+              "timestamp": 9954.524607106
+            },
+            {
+              "type": "audio",
+              "timestamp": 9954.60517482
+            },
+            {
+              "type": "audio",
+              "timestamp": 9954.685754452
+            },
+            {
+              "type": "audio",
+              "timestamp": 9954.766276879
+            },
+            {
+              "type": "audio",
+              "timestamp": 9954.846772046
+            },
+            {
+              "type": "audio",
+              "timestamp": 9954.927255565
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.007854244
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.088411593
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.16896753
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.249484388
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.329926336
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.410446099
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.491441347
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.571922763
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.652394114
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.732813248
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.813313882
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.893849058
+            },
+            {
+              "type": "audio",
+              "timestamp": 9955.974703096
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.055141659
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.136241021
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.216079023
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.296658665
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.377133091
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.457531944
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.538063274
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.618488868
+            },
+            {
+              "type": "done",
+              "timestamp": 9956.699051174
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9985.256111879,
+          "t_retrieved": 9985.289949544,
+          "t_first_audio": 9985.441682218,
+          "t_done": 9987.857760275,
+          "ttfa_ms": 185.57033899924136,
+          "retrieval_ms": 33.83766499973717,
+          "total_ms": 2601.648395999291,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9985.289949544
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.441682218
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.522195421
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.602702966
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.684226797
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.763623696
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.844269095
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.924820365
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.005334549
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.085769596
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.166179136
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.246799368
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.327373401
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.407963759
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.488402111
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.568830178
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.649385694
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.729966187
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.810435194
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.890904973
+            },
+            {
+              "type": "audio",
+              "timestamp": 9986.971358919
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.05193803
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.132506184
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.213118274
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.293695082
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.374109008
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.45538447
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.53594229
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.616394452
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.696865253
+            },
+            {
+              "type": "audio",
+              "timestamp": 9987.777773922
+            },
+            {
+              "type": "done",
+              "timestamp": 9987.857760275
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10016.442600537,
+          "t_retrieved": 10016.468066015,
+          "t_first_audio": 10016.61863913,
+          "t_done": 10019.034043689,
+          "ttfa_ms": 176.03859299924807,
+          "retrieval_ms": 25.465478000114672,
+          "total_ms": 2591.443151999556,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10016.468066015
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.61863913
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.699070062
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.779575253
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.860162616
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.940780464
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.021228401
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.101620214
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.182173807
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.262729333
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.343330857
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.42381044
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.504234501
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.584854223
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.665418111
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.746035779
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.826506129
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.906893716
+            },
+            {
+              "type": "audio",
+              "timestamp": 10017.987453708
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.067989645
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.148628835
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.228995962
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.309375427
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.389983671
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.470421893
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.551082916
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.631533766
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.711899711
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.79245069
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.872996712
+            },
+            {
+              "type": "audio",
+              "timestamp": 10018.953901856
+            },
+            {
+              "type": "done",
+              "timestamp": 10019.034043689
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 185.57033899924136,
+        "retrieval_ms": 33.83766499973717,
+        "total_ms": 2601.648395999291,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p01",
+            "p08",
+            "p03",
+            "p06",
+            "p02",
+            "p05",
+            "p09",
+            "p10",
+            "p04",
+            "p07"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q002",
+      "question_text": "What is the sick leave policy for absences longer than 3 days?",
+      "gold_passage_ids": [
+        "p02"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9956.700556174,
+          "t_retrieved": 9956.719878478,
+          "t_first_audio": 9956.870567546,
+          "t_done": 9959.286183207,
+          "ttfa_ms": 170.0113719998626,
+          "retrieval_ms": 19.322303998706047,
+          "total_ms": 2585.627032998673,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9956.719878478
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.870567546
+            },
+            {
+              "type": "audio",
+              "timestamp": 9956.951038296
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.031650877
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.112179763
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.192729971
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.27328108
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.353721916
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.434449557
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.51492885
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.595456605
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.675963128
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.756396293
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.837051857
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.917521987
+            },
+            {
+              "type": "audio",
+              "timestamp": 9957.998068109
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.078614481
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.158984953
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.240192104
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.320094532
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.400566103
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.481085376
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.561454065
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.642089179
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.722599337
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.803126551
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.883599455
+            },
+            {
+              "type": "audio",
+              "timestamp": 9958.964038698
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.044621966
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.125184211
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.205719878
+            },
+            {
+              "type": "done",
+              "timestamp": 9959.286183207
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9987.859136474,
+          "t_retrieved": 9987.878584154,
+          "t_first_audio": 9988.02924564,
+          "t_done": 9990.445546358,
+          "ttfa_ms": 170.10916599974735,
+          "retrieval_ms": 19.44767999884789,
+          "total_ms": 2586.409883999295,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9987.878584154
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.02924564
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.109761868
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.19018626
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.270743017
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.351418521
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.431915541
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.512396496
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.592857812
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.673399848
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.754061341
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.834610167
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.91511008
+            },
+            {
+              "type": "audio",
+              "timestamp": 9988.995597475
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.076073554
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.156573638
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.237195431
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.317777287
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.398187397
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.478806798
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.559273792
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.639849368
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.720356262
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.800761215
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.881307367
+            },
+            {
+              "type": "audio",
+              "timestamp": 9989.961855302
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.042473771
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.123048915
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.203469932
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.283999009
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.364630748
+            },
+            {
+              "type": "done",
+              "timestamp": 9990.445546358
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10019.035983453,
+          "t_retrieved": 10019.062229748,
+          "t_first_audio": 10019.212776836,
+          "t_done": 10021.629448071,
+          "ttfa_ms": 176.7933829996764,
+          "retrieval_ms": 26.2462949995097,
+          "total_ms": 2593.464617999416,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10019.062229748
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.212776836
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.293363047
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.373958662
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.454511024
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.535159927
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.615639081
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.696168958
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.776806746
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.857371336
+            },
+            {
+              "type": "audio",
+              "timestamp": 10019.937798712
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.018478692
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.098947399
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.179507992
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.260084029
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.340581569
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.421076114
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.501957163
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.582231762
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.662742231
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.743185311
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.82378352
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.904306868
+            },
+            {
+              "type": "audio",
+              "timestamp": 10020.984908452
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.065433233
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.145879236
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.226645314
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.30723454
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.387794463
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.46843826
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.54890921
+            },
+            {
+              "type": "done",
+              "timestamp": 10021.629448071
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 170.10916599974735,
+        "retrieval_ms": 19.44767999884789,
+        "total_ms": 2586.409883999295,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p02",
+            "p03",
+            "p01",
+            "p04",
+            "p05",
+            "p08",
+            "p09",
+            "p06",
+            "p07",
+            "p10"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q003",
+      "question_text": "How many weeks of paid parental leave for primary caregivers?",
+      "gold_passage_ids": [
+        "p03"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9959.287675368,
+          "t_retrieved": 9959.30711078,
+          "t_first_audio": 9959.45770067,
+          "t_done": 9961.876408204,
+          "ttfa_ms": 170.0253020007949,
+          "retrieval_ms": 19.435412001257646,
+          "total_ms": 2588.7328360004176,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9959.30711078
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.45770067
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.538313501
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.618892081
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.699465965
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.779907211
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.860358232
+            },
+            {
+              "type": "audio",
+              "timestamp": 9959.940973317
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.021497827
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.10244955
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.182890686
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.263300997
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.344464143
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.426949619
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.507302645
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.58782368
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.668218708
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.74883925
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.829382608
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.909974598
+            },
+            {
+              "type": "audio",
+              "timestamp": 9960.990413761
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.070823621
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.151477182
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.232042684
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.312529227
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.392949453
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.47334396
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.554492595
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.63512195
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.715627321
+            },
+            {
+              "type": "audio",
+              "timestamp": 9961.796081067
+            },
+            {
+              "type": "done",
+              "timestamp": 9961.876408204
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9990.447722452,
+          "t_retrieved": 9990.469257876,
+          "t_first_audio": 9990.620247568,
+          "t_done": 9993.036589827,
+          "ttfa_ms": 172.52511600054277,
+          "retrieval_ms": 21.53542400083097,
+          "total_ms": 2588.8673749996087,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9990.469257876
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.620247568
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.700370323
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.780839231
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.8613835
+            },
+            {
+              "type": "audio",
+              "timestamp": 9990.941920028
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.023183463
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.102928658
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.183527578
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.264116634
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.344784927
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.425346041
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.505754479
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.586357025
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.666889747
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.747474606
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.828113175
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.908486011
+            },
+            {
+              "type": "audio",
+              "timestamp": 9991.989090218
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.069746433
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.150414326
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.230990122
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.31141166
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.392062657
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.472513738
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.553134531
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.63356388
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.713943435
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.794508545
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.875118181
+            },
+            {
+              "type": "audio",
+              "timestamp": 9992.955656862
+            },
+            {
+              "type": "done",
+              "timestamp": 9993.036589827
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10021.631299345,
+          "t_retrieved": 10021.665724339,
+          "t_first_audio": 10021.816307119,
+          "t_done": 10024.231863363,
+          "ttfa_ms": 185.00777400004154,
+          "retrieval_ms": 34.424994000801235,
+          "total_ms": 2600.564018001023,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10021.665724339
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.816307119
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.896881653
+            },
+            {
+              "type": "audio",
+              "timestamp": 10021.977457349
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.057975349
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.138448724
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.219054214
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.299591392
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.380176352
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.460629676
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.541117602
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.621687059
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.702230066
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.782768767
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.863245396
+            },
+            {
+              "type": "audio",
+              "timestamp": 10022.943762715
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.02427
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.10484854
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.18538663
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.265814237
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.346550921
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.42683858
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.507340296
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.587876954
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.668339873
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.749214462
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.829303406
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.909849237
+            },
+            {
+              "type": "audio",
+              "timestamp": 10023.990432986
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.07087285
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.151381376
+            },
+            {
+              "type": "done",
+              "timestamp": 10024.231863363
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 172.52511600054277,
+        "retrieval_ms": 21.53542400083097,
+        "total_ms": 2588.8673749996087,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p03",
+            "p01",
+            "p02",
+            "p04",
+            "p05",
+            "p06",
+            "p09",
+            "p07",
+            "p08",
+            "p10"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q004",
+      "question_text": "What class of flight is standard for business travel under 6 hours?",
+      "gold_passage_ids": [
+        "p04"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9961.877935007,
+          "t_retrieved": 9961.897467181,
+          "t_first_audio": 9962.048166474,
+          "t_done": 9964.464183751,
+          "ttfa_ms": 170.23146700012148,
+          "retrieval_ms": 19.532173999323277,
+          "total_ms": 2586.248744000841,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9961.897467181
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.048166474
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.128725595
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.209269764
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.289693255
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.370259997
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.450866709
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.531451568
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.611906836
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.692328724
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.772834046
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.85351014
+            },
+            {
+              "type": "audio",
+              "timestamp": 9962.934364058
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.01457953
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.094959817
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.175545187
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.256086792
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.336634346
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.417218825
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.497644468
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.578189499
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.658776261
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.739299549
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.819899341
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.900351153
+            },
+            {
+              "type": "audio",
+              "timestamp": 9963.980915111
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.061467543
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.142155064
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.222732172
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.30316068
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.383720682
+            },
+            {
+              "type": "done",
+              "timestamp": 9964.464183751
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9993.038640937,
+          "t_retrieved": 9993.070299252,
+          "t_first_audio": 9993.221629008,
+          "t_done": 9995.643177131,
+          "ttfa_ms": 182.98807099927217,
+          "retrieval_ms": 31.658314999731374,
+          "total_ms": 2604.536193999593,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9993.070299252
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.221629008
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.302292073
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.382945975
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.463414833
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.544964111
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.625354903
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.705917289
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.786450802
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.867450096
+            },
+            {
+              "type": "audio",
+              "timestamp": 9993.948104849
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.028463273
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.109111216
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.189647824
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.271305693
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.351908179
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.432358519
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.512871652
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.593456091
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.674986131
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.755521547
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.835970395
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.916518409
+            },
+            {
+              "type": "audio",
+              "timestamp": 9994.997074486
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.078619839
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.159191178
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.239619876
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.320186158
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.400753942
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.482259436
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.562781182
+            },
+            {
+              "type": "done",
+              "timestamp": 9995.643177131
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10024.233428603,
+          "t_retrieved": 10024.260407814,
+          "t_first_audio": 10024.411194656,
+          "t_done": 10026.828589985,
+          "ttfa_ms": 177.766053000596,
+          "retrieval_ms": 26.979210999343195,
+          "total_ms": 2595.1613819997874,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10024.260407814
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.411194656
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.492705618
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.57313702
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.653767397
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.735328002
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.815799744
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.896369461
+            },
+            {
+              "type": "audio",
+              "timestamp": 10024.97687335
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.057321847
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.137975519
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.21845417
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.29903922
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.379508618
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.45992646
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.540487975
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.621106815
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.701568992
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.781982408
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.862408272
+            },
+            {
+              "type": "audio",
+              "timestamp": 10025.943087401
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.023633723
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.104143491
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.184598038
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.26499597
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.34556788
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.426120371
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.506622358
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.587142942
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.667574875
+            },
+            {
+              "type": "audio",
+              "timestamp": 10026.748215307
+            },
+            {
+              "type": "done",
+              "timestamp": 10026.828589985
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 182.98807099927217,
+        "retrieval_ms": 31.658314999731374,
+        "total_ms": 2604.536193999593,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p04",
+            "p02",
+            "p03",
+            "p05",
+            "p01",
+            "p06",
+            "p09",
+            "p07",
+            "p08",
+            "p10"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q005",
+      "question_text": "What is the international meal per diem?",
+      "gold_passage_ids": [
+        "p05"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9964.465585108,
+          "t_retrieved": 9964.485376086,
+          "t_first_audio": 9964.636132694,
+          "t_done": 9967.051997455,
+          "ttfa_ms": 170.54758599988418,
+          "retrieval_ms": 19.790977999946335,
+          "total_ms": 2586.4123470000777,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9964.485376086
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.636132694
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.716613379
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.797194813
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.877642068
+            },
+            {
+              "type": "audio",
+              "timestamp": 9964.958163854
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.038836885
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.119264621
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.199764224
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.280270437
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.360821146
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.441450161
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.521832881
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.60224195
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.682764887
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.76328443
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.843942948
+            },
+            {
+              "type": "audio",
+              "timestamp": 9965.924439948
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.004827374
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.085415238
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.16599502
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.246704394
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.327112121
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.407453339
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.488446734
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.568841472
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.649645396
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.730074855
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.810428181
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.890976797
+            },
+            {
+              "type": "audio",
+              "timestamp": 9966.971467096
+            },
+            {
+              "type": "done",
+              "timestamp": 9967.051997455
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9995.647335874,
+          "t_retrieved": 9995.684766723,
+          "t_first_audio": 9995.836229808,
+          "t_done": 9998.251620396,
+          "ttfa_ms": 188.89393399877008,
+          "retrieval_ms": 37.43084899906535,
+          "total_ms": 2604.2845219999435,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9995.684766723
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.836229808
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.915969054
+            },
+            {
+              "type": "audio",
+              "timestamp": 9995.996491351
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.077059495
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.157419942
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.237975929
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.318560468
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.399154801
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.479648395
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.560109722
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.640620031
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.721133714
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.801691424
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.88226081
+            },
+            {
+              "type": "audio",
+              "timestamp": 9996.962676729
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.043288929
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.123804716
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.204382305
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.284942848
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.36536741
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.446051266
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.526540083
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.607079766
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.687649563
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.768109417
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.848755196
+            },
+            {
+              "type": "audio",
+              "timestamp": 9997.929206188
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.009712801
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.09026341
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.170671728
+            },
+            {
+              "type": "done",
+              "timestamp": 9998.251620396
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10026.830135505,
+          "t_retrieved": 10026.859691704,
+          "t_first_audio": 10027.010445488,
+          "t_done": 10029.426407413,
+          "ttfa_ms": 180.30998299946077,
+          "retrieval_ms": 29.55619899876183,
+          "total_ms": 2596.271907999835,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10026.859691704
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.010445488
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.091048514
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.171426637
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.252117193
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.332600573
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.413250178
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.493678856
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.574135976
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.654762948
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.735425602
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.815918856
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.896406011
+            },
+            {
+              "type": "audio",
+              "timestamp": 10027.976803773
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.057339329
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.13796577
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.218397693
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.298877447
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.379342198
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.459941559
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.540572917
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.621190826
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.701675326
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.783205126
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.862660752
+            },
+            {
+              "type": "audio",
+              "timestamp": 10028.943281675
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.023802088
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.104258888
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.184728737
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.265331883
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.34590771
+            },
+            {
+              "type": "done",
+              "timestamp": 10029.426407413
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 188.89393399877008,
+        "retrieval_ms": 37.43084899906535,
+        "total_ms": 2604.2845219999435,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p05",
+            "p01",
+            "p02",
+            "p03",
+            "p04",
+            "p08",
+            "p06",
+            "p07",
+            "p09",
+            "p10"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q006",
+      "question_text": "How long do I have to submit expenses after incurring them?",
+      "gold_passage_ids": [
+        "p06"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9967.053805935,
+          "t_retrieved": 9967.074178214,
+          "t_first_audio": 9967.224823146,
+          "t_done": 9969.646932582,
+          "ttfa_ms": 171.01721099970746,
+          "retrieval_ms": 20.372278999275295,
+          "total_ms": 2593.1266469997354,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9967.074178214
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.224823146
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.306397722
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.386949523
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.467514713
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.548123508
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.628477916
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.710086733
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.790613526
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.871177665
+            },
+            {
+              "type": "audio",
+              "timestamp": 9967.951767021
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.032193676
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.11380707
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.194437447
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.274954986
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.355512585
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.435957007
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.517526314
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.598074319
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.678986554
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.759162347
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.839659156
+            },
+            {
+              "type": "audio",
+              "timestamp": 9968.921186342
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.001772584
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.082289873
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.162890916
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.243325553
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.324882873
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.405448284
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.486239769
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.566536692
+            },
+            {
+              "type": "done",
+              "timestamp": 9969.646932582
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9998.253489045,
+          "t_retrieved": 9998.272640826,
+          "t_first_audio": 9998.423469831,
+          "t_done": 10000.844888973,
+          "ttfa_ms": 169.9807859986322,
+          "retrieval_ms": 19.151780999891344,
+          "total_ms": 2591.3999280001008,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9998.272640826
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.423469831
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.503989153
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.584593582
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.664989732
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.745663653
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.826184668
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.907703822
+            },
+            {
+              "type": "audio",
+              "timestamp": 9998.988255452
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.068668176
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.149308067
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.22981434
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.311470297
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.392162926
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.472545456
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.554211237
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.633689136
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.715247608
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.795620813
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.875973749
+            },
+            {
+              "type": "audio",
+              "timestamp": 9999.956466662
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.037096558
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.1185462
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.199180042
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.279580137
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.360107812
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.440703207
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.522239056
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.602813279
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.683383877
+            },
+            {
+              "type": "audio",
+              "timestamp": 10000.764180811
+            },
+            {
+              "type": "done",
+              "timestamp": 10000.844888973
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10029.427808679,
+          "t_retrieved": 10029.454150175,
+          "t_first_audio": 10029.604880874,
+          "t_done": 10032.022033704,
+          "ttfa_ms": 177.0721949997096,
+          "retrieval_ms": 26.34149600089586,
+          "total_ms": 2594.225024999105,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10029.454150175
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.604880874
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.685467907
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.765942343
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.846528454
+            },
+            {
+              "type": "audio",
+              "timestamp": 10029.927124079
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.00753436
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.0880922
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.168607546
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.249289048
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.329762222
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.410228536
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.490741719
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.571282934
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.651898148
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.732373986
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.812838357
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.893472199
+            },
+            {
+              "type": "audio",
+              "timestamp": 10030.973937712
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.054538945
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.13506663
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.215522668
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.296241015
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.37674168
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.458504595
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.539095273
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.619534266
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.700168168
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.780630096
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.86114372
+            },
+            {
+              "type": "audio",
+              "timestamp": 10031.941635241
+            },
+            {
+              "type": "done",
+              "timestamp": 10032.022033704
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 169.9807859986322,
+        "retrieval_ms": 19.151780999891344,
+        "total_ms": 2591.3999280001008,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p01",
+            "p05",
+            "p06",
+            "p08",
+            "p10",
+            "p02",
+            "p03",
+            "p04",
+            "p07",
+            "p09"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q007",
+      "question_text": "Can I rent a car for business travel?",
+      "gold_passage_ids": [
+        "p07"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9969.648994597,
+          "t_retrieved": 9969.670369764,
+          "t_first_audio": 9969.820711807,
+          "t_done": 9972.238314633,
+          "ttfa_ms": 171.7172099997697,
+          "retrieval_ms": 21.375166999860085,
+          "total_ms": 2589.320035998753,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9969.670369764
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.820711807
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.901289936
+            },
+            {
+              "type": "audio",
+              "timestamp": 9969.981765684
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.062303103
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.142830507
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.223600601
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.304139682
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.384571675
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.465108664
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.546535141
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.627136034
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.707660333
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.788994303
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.869506805
+            },
+            {
+              "type": "audio",
+              "timestamp": 9970.950073447
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.030565259
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.1110971
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.191684233
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.272184406
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.352703959
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.433209211
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.513719419
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.594229047
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.674737103
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.755197307
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.835803338
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.916317002
+            },
+            {
+              "type": "audio",
+              "timestamp": 9971.996815494
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.077340214
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.157760119
+            },
+            {
+              "type": "done",
+              "timestamp": 9972.238314633
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10000.847814418,
+          "t_retrieved": 10000.889335069,
+          "t_first_audio": 10001.039633076,
+          "t_done": 10003.456598709,
+          "ttfa_ms": 191.81865799873776,
+          "retrieval_ms": 41.5206509987911,
+          "total_ms": 2608.78429100012,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10000.889335069
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.039633076
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.120185458
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.200628657
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.28109433
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.36158493
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.44227814
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.522704263
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.603174373
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.68360957
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.764163564
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.847191364
+            },
+            {
+              "type": "audio",
+              "timestamp": 10001.926982186
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.007503141
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.087941283
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.168564269
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.249155948
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.32965413
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.410176647
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.490473059
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.570985901
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.651513786
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.732114039
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.812523258
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.892901241
+            },
+            {
+              "type": "audio",
+              "timestamp": 10002.973463887
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.054058291
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.134660065
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.215069865
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.295478213
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.37598755
+            },
+            {
+              "type": "done",
+              "timestamp": 10003.456598709
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10032.023449041,
+          "t_retrieved": 10032.045607668,
+          "t_first_audio": 10032.196699092,
+          "t_done": 10034.612289026,
+          "ttfa_ms": 173.25005099883128,
+          "retrieval_ms": 22.158626999953412,
+          "total_ms": 2588.83998499914,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10032.045607668
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.196699092
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.276949436
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.357441658
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.438076191
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.518456247
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.599147965
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.67966231
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.760166419
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.840798629
+            },
+            {
+              "type": "audio",
+              "timestamp": 10032.923231687
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.001752768
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.082335064
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.162840416
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.243411104
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.323843437
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.404438582
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.484978524
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.565568942
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.646188303
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.726453489
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.806996335
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.887594995
+            },
+            {
+              "type": "audio",
+              "timestamp": 10033.968153796
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.048717434
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.129176006
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.209648619
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.290201381
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.370746522
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.451357239
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.531792948
+            },
+            {
+              "type": "done",
+              "timestamp": 10034.612289026
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 191.81865799873776,
+        "retrieval_ms": 41.5206509987911,
+        "total_ms": 2608.78429100012,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p04",
+            "p02",
+            "p03",
+            "p05",
+            "p09",
+            "p01",
+            "p06",
+            "p07",
+            "p08",
+            "p10"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q008",
+      "question_text": "How many days per week can I work remotely?",
+      "gold_passage_ids": [
+        "p08"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9972.240213848,
+          "t_retrieved": 9972.264506067,
+          "t_first_audio": 9972.415679512,
+          "t_done": 9974.832333302,
+          "ttfa_ms": 175.46566400051233,
+          "retrieval_ms": 24.292219000926707,
+          "total_ms": 2592.119454000567,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9972.264506067
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.415679512
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.49624356
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.57663313
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.657167906
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.73881537
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.819399077
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.899812823
+            },
+            {
+              "type": "audio",
+              "timestamp": 9972.980336382
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.060750829
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.141328808
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.221923732
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.302435193
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.38293093
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.463336504
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.543952429
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.624429899
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.704977653
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.785428304
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.865816031
+            },
+            {
+              "type": "audio",
+              "timestamp": 9973.946386289
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.026964038
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.107490601
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.188048621
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.268414205
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.349040956
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.42960111
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.510122124
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.590480448
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.670884259
+            },
+            {
+              "type": "audio",
+              "timestamp": 9974.751520915
+            },
+            {
+              "type": "done",
+              "timestamp": 9974.832333302
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10003.458132402,
+          "t_retrieved": 10003.493078809,
+          "t_first_audio": 10003.644767818,
+          "t_done": 10006.06654456,
+          "ttfa_ms": 186.63541599926248,
+          "retrieval_ms": 34.94640700046148,
+          "total_ms": 2608.4121580006467,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10003.493078809
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.644767818
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.725389432
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.805801365
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.886363571
+            },
+            {
+              "type": "audio",
+              "timestamp": 10003.9668607
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.04850511
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.129082278
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.209463155
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.290027694
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.370544843
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.452181281
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.532804217
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.613262348
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.693807759
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.774952849
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.856332366
+            },
+            {
+              "type": "audio",
+              "timestamp": 10004.936901712
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.017316099
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.097854039
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.178424837
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.260165269
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.340687185
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.421094131
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.501663408
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.582225724
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.663733531
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.744306883
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.824763473
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.905454589
+            },
+            {
+              "type": "audio",
+              "timestamp": 10005.986193667
+            },
+            {
+              "type": "done",
+              "timestamp": 10006.06654456
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10034.613813084,
+          "t_retrieved": 10034.633409514,
+          "t_first_audio": 10034.784168896,
+          "t_done": 10037.202063135,
+          "ttfa_ms": 170.35581199888838,
+          "retrieval_ms": 19.59642999827338,
+          "total_ms": 2588.2500509997044,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10034.633409514
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.784168896
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.864710381
+            },
+            {
+              "type": "audio",
+              "timestamp": 10034.945232067
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.025707674
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.10616814
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.186696926
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.267257509
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.34780306
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.428220652
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.508793103
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.589405033
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.670230218
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.750548843
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.830943801
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.91145434
+            },
+            {
+              "type": "audio",
+              "timestamp": 10035.992061072
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.072569889
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.156237677
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.234571981
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.3151229
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.395656824
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.476165591
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.557603494
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.638062637
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.71855492
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.799077186
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.87957752
+            },
+            {
+              "type": "audio",
+              "timestamp": 10036.95997385
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.040432773
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.120981709
+            },
+            {
+              "type": "done",
+              "timestamp": 10037.202063135
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 186.63541599926248,
+        "retrieval_ms": 34.94640700046148,
+        "total_ms": 2608.4121580006467,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p08",
+            "p01",
+            "p05",
+            "p06",
+            "p02",
+            "p03",
+            "p04",
+            "p07",
+            "p09",
+            "p10"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q009",
+      "question_text": "What are the core hours for remote workers?",
+      "gold_passage_ids": [
+        "p09"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9974.834696974,
+          "t_retrieved": 9974.866333176,
+          "t_first_audio": 9975.016842608,
+          "t_done": 9977.432621401,
+          "ttfa_ms": 182.14563400033512,
+          "retrieval_ms": 31.636202000299818,
+          "total_ms": 2597.92442700018,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9974.866333176
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.016842608
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.097384153
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.177828324
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.258420254
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.339053054
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.419554049
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.500108874
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.58059703
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.661095282
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.741610738
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.822166204
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.90270138
+            },
+            {
+              "type": "audio",
+              "timestamp": 9975.983122356
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.063660446
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.144284544
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.224879328
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.305408334
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.385835881
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.466402393
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.547054482
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.627428749
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.707900912
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.788332975
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.868826859
+            },
+            {
+              "type": "audio",
+              "timestamp": 9976.949456825
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.029959804
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.110567337
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.191081571
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.271589016
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.352104142
+            },
+            {
+              "type": "done",
+              "timestamp": 9977.432621401
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10006.068043791,
+          "t_retrieved": 10006.087503409,
+          "t_first_audio": 10006.238220718,
+          "t_done": 10008.656160444,
+          "ttfa_ms": 170.1769270002842,
+          "retrieval_ms": 19.45961800083751,
+          "total_ms": 2588.1166529998154,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10006.087503409
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.238220718
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.318681484
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.399235998
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.480836142
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.561379149
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.641844582
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.722427008
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.80305462
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.883580743
+            },
+            {
+              "type": "audio",
+              "timestamp": 10006.964132803
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.044562633
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.125118289
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.20565682
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.286281569
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.366843374
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.447323027
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.527976368
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.608476111
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.688991748
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.769563759
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.850044013
+            },
+            {
+              "type": "audio",
+              "timestamp": 10007.930602914
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.011170007
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.092594952
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.17315897
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.253539136
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.334153109
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.41465164
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.495188138
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.575822891
+            },
+            {
+              "type": "done",
+              "timestamp": 10008.656160444
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10037.203595245,
+          "t_retrieved": 10037.223083445,
+          "t_first_audio": 10037.374611175,
+          "t_done": 10039.790325713,
+          "ttfa_ms": 171.01593000006687,
+          "retrieval_ms": 19.488199999614153,
+          "total_ms": 2586.730467999587,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10037.223083445
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.374611175
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.454989118
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.535529761
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.61599222
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.696629827
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.777147978
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.857561463
+            },
+            {
+              "type": "audio",
+              "timestamp": 10037.938205901
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.018665124
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.099206529
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.179752611
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.260173677
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.340792467
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.421309326
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.5021401
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.582471974
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.662864008
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.743555465
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.823980998
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.904895256
+            },
+            {
+              "type": "audio",
+              "timestamp": 10038.985130357
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.065488711
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.146129574
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.226578992
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.307113146
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.387674301
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.468085343
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.548680848
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.62924761
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.709858608
+            },
+            {
+              "type": "done",
+              "timestamp": 10039.790325713
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 170.1769270002842,
+        "retrieval_ms": 19.45961800083751,
+        "total_ms": 2588.1166529998154,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p09",
+            "p01",
+            "p03",
+            "p02",
+            "p04",
+            "p05",
+            "p07",
+            "p08",
+            "p10",
+            "p06"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q010",
+      "question_text": "What should I do if I experience harassment at work?",
+      "gold_passage_ids": [
+        "p10"
+      ],
+      "category": "lookup",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9977.434233129,
+          "t_retrieved": 9977.471865738,
+          "t_first_audio": 9977.622560213,
+          "t_done": 9980.045265622,
+          "ttfa_ms": 188.32708399895637,
+          "retrieval_ms": 37.63260899904708,
+          "total_ms": 2611.032492999584,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9977.471865738
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.622560213
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.702968822
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.784464601
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.865081077
+            },
+            {
+              "type": "audio",
+              "timestamp": 9977.945704624
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.026223295
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.106745131
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.188286788
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.2688257
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.349436137
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.430055037
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.510455613
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.591967867
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.672496954
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.753139469
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.83360447
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.913975803
+            },
+            {
+              "type": "audio",
+              "timestamp": 9978.995513114
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.07717492
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.15660669
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.237189146
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.317545016
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.399087334
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.479590012
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.560098098
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.64121136
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.721624715
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.803214584
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.884198615
+            },
+            {
+              "type": "audio",
+              "timestamp": 9979.964707842
+            },
+            {
+              "type": "done",
+              "timestamp": 9980.045265622
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10008.657752393,
+          "t_retrieved": 10008.678879001,
+          "t_first_audio": 10008.829500588,
+          "t_done": 10011.250839091,
+          "ttfa_ms": 171.74819500178273,
+          "retrieval_ms": 21.126608000486158,
+          "total_ms": 2593.0866980015708,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10008.678879001
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.829500588
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.91002663
+            },
+            {
+              "type": "audio",
+              "timestamp": 10008.990592602
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.071125975
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.151564457
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.232157629
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.312742318
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.393363481
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.474185442
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.554781889
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.63544837
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.715863157
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.797421989
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.877946359
+            },
+            {
+              "type": "audio",
+              "timestamp": 10009.958385583
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.039037501
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.119649381
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.201169206
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.281749448
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.362132489
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.442724899
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.525253038
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.604822794
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.685419551
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.76577522
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.846410965
+            },
+            {
+              "type": "audio",
+              "timestamp": 10010.927086869
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.009450405
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.089935006
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.170323725
+            },
+            {
+              "type": "done",
+              "timestamp": 10011.250839091
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10039.792146762,
+          "t_retrieved": 10039.821945611,
+          "t_first_audio": 10039.972480771,
+          "t_done": 10042.394416478,
+          "ttfa_ms": 180.3340090009442,
+          "retrieval_ms": 29.7988490001444,
+          "total_ms": 2602.269716000592,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10039.821945611
+            },
+            {
+              "type": "audio",
+              "timestamp": 10039.972480771
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.053039091
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.133600595
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.214127609
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.294603327
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.375027798
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.455564527
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.53816968
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.616610051
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.697184065
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.777580345
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.85810843
+            },
+            {
+              "type": "audio",
+              "timestamp": 10040.938748812
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.019242045
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.099827315
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.181535559
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.263073881
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.343656838
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.424179475
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.506622438
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.5876816
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.669517544
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.750294257
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.830749475
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.911951329
+            },
+            {
+              "type": "audio",
+              "timestamp": 10041.991786998
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.072345508
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.152880293
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.233472624
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.314053938
+            },
+            {
+              "type": "done",
+              "timestamp": 10042.394416478
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 171.74819500178273,
+        "retrieval_ms": 21.126608000486158,
+        "total_ms": 2593.0866980015708,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p01",
+            "p02",
+            "p03",
+            "p04",
+            "p05",
+            "p06",
+            "p07",
+            "p08",
+            "p09",
+            "p10"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q011",
+      "question_text": "What is the company's policy on cryptocurrency investments?",
+      "gold_passage_ids": [],
+      "category": "unanswerable",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9980.047672588,
+          "t_retrieved": 9980.087447431,
+          "t_first_audio": 9980.237964603,
+          "t_done": 9982.6567688,
+          "ttfa_ms": 190.29201500052295,
+          "retrieval_ms": 39.774843000486726,
+          "total_ms": 2609.096211999713,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9980.087447431
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.237964603
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.318537735
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.399050608
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.481180677
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.561075765
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.64316931
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.723354397
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.803850154
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.884404979
+            },
+            {
+              "type": "audio",
+              "timestamp": 9980.964961577
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.045424305
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.125819483
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.207650479
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.288253726
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.368818816
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.449328134
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.529776431
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.610289143
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.69085905
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.771391672
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.851822513
+            },
+            {
+              "type": "audio",
+              "timestamp": 9981.932221307
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.012772356
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.093282826
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.173852412
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.254430352
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.334867703
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.415380024
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.495876292
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.576418889
+            },
+            {
+              "type": "done",
+              "timestamp": 9982.6567688
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10011.252901317,
+          "t_retrieved": 10011.27314729,
+          "t_first_audio": 10011.423904688,
+          "t_done": 10013.841647202,
+          "ttfa_ms": 171.00337099873286,
+          "retrieval_ms": 20.245972998964135,
+          "total_ms": 2588.745884999298,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10011.27314729
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.423904688
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.505444964
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.585888644
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.666492331
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.748043262
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.828556395
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.909162386
+            },
+            {
+              "type": "audio",
+              "timestamp": 10011.98967622
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.070083166
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.150631941
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.231154699
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.311721061
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.392242677
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.472638506
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.553287721
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.633873622
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.71438338
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.794817446
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.875227346
+            },
+            {
+              "type": "audio",
+              "timestamp": 10012.955724776
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.036405016
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.11684429
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.197310324
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.277683279
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.358218164
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.438830344
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.519353692
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.599895438
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.680278158
+            },
+            {
+              "type": "audio",
+              "timestamp": 10013.760748347
+            },
+            {
+              "type": "done",
+              "timestamp": 10013.841647202
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10042.395782883,
+          "t_retrieved": 10042.41514791,
+          "t_first_audio": 10042.565696048,
+          "t_done": 10044.986990325,
+          "ttfa_ms": 169.91316499843379,
+          "retrieval_ms": 19.36502699936682,
+          "total_ms": 2591.2074419993587,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10042.41514791
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.565696048
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.646304323
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.727180013
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.807758764
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.887976899
+            },
+            {
+              "type": "audio",
+              "timestamp": 10042.96851554
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.053203229
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.132280675
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.212661943
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.293463103
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.376906969
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.456443926
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.537366986
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.617945626
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.698437027
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.778982068
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.859446118
+            },
+            {
+              "type": "audio",
+              "timestamp": 10043.940048554
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.020622026
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.101045346
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.181569405
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.262135667
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.342719085
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.423256814
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.503687765
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.584308728
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.664856843
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.746207617
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.825999411
+            },
+            {
+              "type": "audio",
+              "timestamp": 10044.906461649
+            },
+            {
+              "type": "done",
+              "timestamp": 10044.986990325
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 171.00337099873286,
+        "retrieval_ms": 20.245972998964135,
+        "total_ms": 2588.745884999298,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p01",
+            "p02",
+            "p03",
+            "p04",
+            "p05",
+            "p06",
+            "p07",
+            "p08",
+            "p09",
+            "p10"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "q012",
+      "question_text": "How many vacation days do contractors receive?",
+      "gold_passage_ids": [],
+      "category": "unanswerable",
+      "runs": [
+        {
+          "success": true,
+          "error": null,
+          "t_send": 9982.658228473,
+          "t_retrieved": 9982.67767374,
+          "t_first_audio": 9982.828230721,
+          "t_done": 9985.253628349,
+          "ttfa_ms": 170.00224799994612,
+          "retrieval_ms": 19.44526700026472,
+          "total_ms": 2595.3998760014656,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 9982.67767374
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.828230721
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.908737084
+            },
+            {
+              "type": "audio",
+              "timestamp": 9982.989843046
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.069816109
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.15326322
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.237053129
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.314644081
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.395214029
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.475794161
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.556246754
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.640198423
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.719210702
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.79970625
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.880262517
+            },
+            {
+              "type": "audio",
+              "timestamp": 9983.960661581
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.042262766
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.122815989
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.203408249
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.284064394
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.364447515
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.446051765
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.526590786
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.607082588
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.687651674
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.768064208
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.84961634
+            },
+            {
+              "type": "audio",
+              "timestamp": 9984.930192387
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.010767822
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.091276108
+            },
+            {
+              "type": "audio",
+              "timestamp": 9985.171791645
+            },
+            {
+              "type": "done",
+              "timestamp": 9985.253628349
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10013.843884798,
+          "t_retrieved": 10013.867388498,
+          "t_first_audio": 10014.018155931,
+          "t_done": 10016.440030218,
+          "ttfa_ms": 174.2711330007296,
+          "retrieval_ms": 23.503700000219396,
+          "total_ms": 2596.145420000539,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10013.867388498
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.018155931
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.098524881
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.179041679
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.259590205
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.341230749
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.421792524
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.502218538
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.582841103
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.663380055
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.744491264
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.824580759
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.904986293
+            },
+            {
+              "type": "audio",
+              "timestamp": 10014.985541478
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.066156983
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.146701774
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.227227675
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.307625918
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.388193953
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.46870317
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.549399555
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.629970574
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.710259044
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.790765557
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.871410996
+            },
+            {
+              "type": "audio",
+              "timestamp": 10015.953264425
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.032587055
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.113062192
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.193526592
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.274073285
+            },
+            {
+              "type": "audio",
+              "timestamp": 10016.359511106
+            },
+            {
+              "type": "done",
+              "timestamp": 10016.440030218
+            }
+          ]
+        },
+        {
+          "success": true,
+          "error": null,
+          "t_send": 10044.988460073,
+          "t_retrieved": 10045.007800464,
+          "t_first_audio": 10045.158479887,
+          "t_done": 10047.574185292,
+          "ttfa_ms": 170.01981400062505,
+          "retrieval_ms": 19.340390999786905,
+          "total_ms": 2585.725218999869,
+          "stall_count": 0,
+          "total_stall_ms": 0.0,
+          "events": [
+            {
+              "type": "retrieved",
+              "timestamp": 10045.007800464
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.158479887
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.239112938
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.319462519
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.399901983
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.480452341
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.560991864
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.641599427
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.7221871
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.802587797
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.883133518
+            },
+            {
+              "type": "audio",
+              "timestamp": 10045.963606281
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.044264629
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.124753957
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.206534779
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.28573704
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.366298494
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.446902472
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.527354214
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.607800318
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.688417185
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.768967934
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.849592963
+            },
+            {
+              "type": "audio",
+              "timestamp": 10046.929984014
+            },
+            {
+              "type": "audio",
+              "timestamp": 10047.010469977
+            },
+            {
+              "type": "audio",
+              "timestamp": 10047.091125922
+            },
+            {
+              "type": "audio",
+              "timestamp": 10047.171628369
+            },
+            {
+              "type": "audio",
+              "timestamp": 10047.252296873
+            },
+            {
+              "type": "audio",
+              "timestamp": 10047.332739692
+            },
+            {
+              "type": "audio",
+              "timestamp": 10047.413197513
+            },
+            {
+              "type": "audio",
+              "timestamp": 10047.493712438
+            },
+            {
+              "type": "done",
+              "timestamp": 10047.574185292
+            }
+          ]
+        }
+      ],
+      "median": {
+        "success": true,
+        "error": null,
+        "ttfa_ms": 174.2711330007296,
+        "retrieval_ms": 23.503700000219396,
+        "total_ms": 2596.145420000539,
+        "stall_count": 0,
+        "total_stall_ms": 0.0,
+        "retrieved_passage_ids": [
+          [
+            "p01",
+            "p06",
+            "p08",
+            "p02",
+            "p03",
+            "p04",
+            "p05",
+            "p07",
+            "p09",
+            "p10"
+          ]
+        ]
+      }
+    }
+  ],
+  "metric_values": {
+    "recall_at_1": 0.7,
+    "recall_at_3": 0.8,
+    "recall_at_5": 0.8,
+    "mrr": 0.7558333333333334,
+    "ttfa_p50_ms": 173.3981245006362,
+    "ttfa_p95_ms": 190.21005979875554,
+    "retrieval_p50_ms": 22.519562000525184,
+    "total_p50_ms": 2594.616059001055,
+    "overlap_ratio_mean": 0.9314689897563896,
+    "stall_ms_mean": 0.0,
+    "stall_count_mean": 0.0
+  },
+  "metric_scores": {
+    "recall_at_5": 0.7500000000000001,
+    "mrr": 1.0,
+    "ttfa_p50_ms": 1.0,
+    "ttfa_p95_ms": 1.0,
+    "stall_ms_mean": 1.0,
+    "overlap_ratio_mean": 1.0,
+    "total_p50_ms": 1.0
+  },
+  "final_score": 95.0,
+  "success_rate": 1.0
+}

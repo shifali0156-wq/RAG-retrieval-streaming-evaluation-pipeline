@@ -1,0 +1,14 @@
+# Default scoring configuration for Problem 4: Voice-driven RAG Assistant
+# Weights must sum to 1.0
+
+problem_4:
+  stall_min_ms: 200
+  request_timeout_s: 30
+  metrics:
+    recall_at_5:        {weight: 0.20, threshold: 0.50, target: 0.90, direction: higher}
+    mrr:                {weight: 0.15, threshold: 0.30, target: 0.75, direction: higher}
+    ttfa_p50_ms:        {weight: 0.20, threshold: 3000, target: 1200, direction: lower}
+    ttfa_p95_ms:        {weight: 0.10, threshold: 6000, target: 2400, direction: lower}
+    stall_ms_mean:      {weight: 0.15, threshold: 1500, target: 0,    direction: lower}
+    overlap_ratio_mean: {weight: 0.10, threshold: 0.15, target: 0.60, direction: higher}
+    total_p50_ms:       {weight: 0.10, threshold: 12000, target: 5000, direction: lower}

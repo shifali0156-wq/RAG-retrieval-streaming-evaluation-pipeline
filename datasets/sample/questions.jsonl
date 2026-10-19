@@ -1,0 +1,12 @@
+{"id": "q001", "question": "How many days of annual leave do employees get per year?", "gold_passage_ids": ["p01"], "category": "lookup"}
+{"id": "q002", "question": "What is the sick leave policy for absences longer than 3 days?", "gold_passage_ids": ["p02"], "category": "lookup"}
+{"id": "q003", "question": "How many weeks of paid parental leave for primary caregivers?", "gold_passage_ids": ["p03"], "category": "lookup"}
+{"id": "q004", "question": "What class of flight is standard for business travel under 6 hours?", "gold_passage_ids": ["p04"], "category": "lookup"}
+{"id": "q005", "question": "What is the international meal per diem?", "gold_passage_ids": ["p05"], "category": "lookup"}
+{"id": "q006", "question": "How long do I have to submit expenses after incurring them?", "gold_passage_ids": ["p06"], "category": "lookup"}
+{"id": "q007", "question": "Can I rent a car for business travel?", "gold_passage_ids": ["p07"], "category": "lookup"}
+{"id": "q008", "question": "How many days per week can I work remotely?", "gold_passage_ids": ["p08"], "category": "lookup"}
+{"id": "q009", "question": "What are the core hours for remote workers?", "gold_passage_ids": ["p09"], "category": "lookup"}
+{"id": "q010", "question": "What should I do if I experience harassment at work?", "gold_passage_ids": ["p10"], "category": "lookup"}
+{"id": "q011", "question": "What is the company's policy on cryptocurrency investments?", "gold_passage_ids": [], "category": "unanswerable"}
+{"id": "q012", "question": "How many vacation days do contractors receive?", "gold_passage_ids": [], "category": "unanswerable"}
